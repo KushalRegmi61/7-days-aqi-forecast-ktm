@@ -10,55 +10,6 @@ This project analyzes historical air quality data and implements time series for
 
 ---
 
-## Features
-
-- Data processing and cleaning for air quality measurements
-- AQI calculation and categorization
-- Time series analysis with seasonal decomposition
-- Multiple forecasting models (ARIMA, etc.)
-- Visualization of trends and forecasts
-- Performance evaluation metrics
-
----
-
-## Installation
-
-```bash
-git clone https://github.com/yourusername/aqi-forecasting-nepal.git
-cd aqi-forecasting-nepal
-pip install -r requirements.txt
-```
-
-
-## Usage
-
-1. **Data Processing**: Run the data processing notebooks to clean and prepare the data
-2. **AQI Computation**: Calculate AQI values and categories
-3. **Forecasting**: Generate 7-day forecasts using trained models
-
----
-
-
-## Project Structure
-
-```
-aqi-forecasting-ktm/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-├── data/
-│   ├── processed/
-│   │   └── ktm_clean.csv
-├── notebooks/
-│   ├── computing_aqi_and_aqi_category.ipynb
-│   ├── creating_yearly_dataset.ipynb
-│   └── ts_forecast.ipynb
-├── results/
-│   └── images/
-
-```
----
 
 
 ## **Summary of Approach and Results:**
@@ -106,6 +57,45 @@ Below are key visualizations generated during the project:
 ### Combined forecast and actuals for the last 7 days
 ![7-Day Forecast Combined](./results/images/7_day_forcast_combined.png)
 
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/aqi-forecasting-nepal.git
+cd aqi-forecasting-nepal
+pip install -r requirements.txt
+```
+
+
+## Usage
+
+1. **Data Processing**: Run the data processing notebooks to clean and prepare the data
+2. **AQI Computation**: Calculate AQI values and categories
+3. **Forecasting**: Generate 7-day forecasts using trained models
+
+---
+
+
+## Project Structure
+
+```
+aqi-forecasting-ktm/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+├── data/
+│   ├── processed/
+│   │   └── ktm_clean.csv
+├── notebooks/
+│   ├── computing_aqi_and_aqi_category.ipynb
+│   ├── creating_yearly_dataset.ipynb
+│   └── ts_forecast.ipynb
+├── results/
+│   └── images/
+
+```
 ---
 
 
