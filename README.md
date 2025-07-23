@@ -1,4 +1,4 @@
-# 7-Day AQI Forecast for Kathmandu
+# AQI Forecast for Kathmandu
 
 A time series forecasting project for predicting Air Quality Index (AQI) values in Kathmandu.
 
